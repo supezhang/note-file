@@ -37,4 +37,7 @@ C:\Users\wuxiaoyuan\AppData\Local\Atlassian\SourceTree\passwd    清空文件内
 
 小程序：supezhang19939007138@163.com  密码：原始密码
 		添加插件：需要正式AppId ：wxcf527bb7fd050769
-公众号：260190826@qq.com 密码：原始密码		
+公众号：260190826@qq.com 密码：原始密码
+
+git remote add origin 仓库地址              重新添加远程仓库地址
+gti push -u origin master                  提交到远程仓库的master主干
