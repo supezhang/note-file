@@ -1,0 +1,40 @@
+1.class语义化；
+	尽可能简短；
+	按功能命名(example：头像：avatar，不要命名成：xxx-png;)，指向面，不单指向点；
+2.视觉稿对比；页面完成，把设计稿缩放大375px 自己页面截图，透明度80%，1：1走查页面；
+3.ps基本操作；
+4.同样结构布局不同页面，用切换类名来切换；
+5.图片结构，命名语义化，不要xxx-png，xxx-jpg,... ；指向面，不单指向点；
+6.样式scoped
+7.开发后，修改只能改样式(不得已再改结构，并告知导师，开发相关人员)
+8.可用样式实现的，不用空标签（<div class="bg-line"></div>）
+9.同一个页面，不同状态，通过传入状态码来控制
+10.图片尺寸优化，图片大小优化
+11.所有标签闭合
+12.文字超出隐藏,build后失效，加入样式（/*! autoprefixer: off *//* autoprefixer: on */）即可；
+13.兼容iphonX  加入样式：padding-bottom:evn(....);
+
+build时候改静态资源相对路径：config/index.js --> build.assetsPublicPath:'./'
+
+
+路由：能用=== 不要用==
+
+
+
+vscode格式化：shift+alt+f
+
+Whistle: cmd-->w2 start;127.0.0.1:8899;
+
+SourceTree删除GIT密码
+C:\Users\wuxiaoyuan\AppData\Local\Atlassian\SourceTree\passwd    清空文件内容即可
+
+
+
+匿名函数：this指window
+箭头函数：this指
+普通函数：this指被绑定的对象，全局中的指window
+
+
+小程序：supezhang19939007138@163.com  密码：原始密码
+		添加插件：需要正式AppId ：wxcf527bb7fd050769
+公众号：260190826@qq.com 密码：原始密码		
